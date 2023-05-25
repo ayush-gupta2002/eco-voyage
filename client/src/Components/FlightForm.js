@@ -74,12 +74,8 @@ function FlightForm() {
       const res = await axios.request(options);
       setToAirportName(res.data.data[0].airport_name);
       setToCity(res.data.data[0].iata_code);
-    } catch (err) {
-      console.log(err);
-    }
+    } catch (err) {}
   }
-
-  console.log(fromAirportName, toAirportName);
 
   const handleAddFlight = () => {
     if (fromAirportName && toAirportName) {
