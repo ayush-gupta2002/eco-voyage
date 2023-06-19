@@ -76,6 +76,10 @@ function CarbonFootprint() {
   return (
     <div className="min-h-screen h-full bg-gradient-to-r from-rose-100 to-teal-100 flex">
       <div className="w-full h-full my-10">
+        <h3 className="text-center mb-6 font-semibold text-lg">
+          *If you are facing some issues, try running on Google Chrome or
+          contact the developer.
+        </h3>
         <div className="flex w-full justify-center">
           <div className="flex gap-2">
             <button
