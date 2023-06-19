@@ -25,15 +25,15 @@ function Navbar() {
         <a className="my-auto font-semibold text-gray-500 rounded-lg p-2 bg-gray-100 cursor-pointer hover:bg-red-400 hover:text-white duration-500 text-center w-fit mx-auto sm:mx-0 order-3 sm:order-1">
           Buy me a coffee
         </a>
-        <div
-          href="https://github.com/ayush-gupta2002/Vihaan-Hackathon-2023"
+        <a
+          href="https://github.com/ayush-gupta2002/eco-voyage"
           className="bg-gray-100 flex gap-2 mx-auto p-2 my-auto rounded-lg cursor-pointer group hover:bg-gray-600 duation-600 order-2 sm:order-2"
         >
           <AiFillGithub className="text-2xl group-hover:text-white duration-300"></AiFillGithub>
           <div className="font-semibol text-gray-500 font-semibold group-hover:text-white duration-300">
             Code
           </div>
-        </div>
+        </a>
         <h1 className="text-4xl font-bold my-auto sm:mx-0 mx-auto order-1 sm:order-3">
           EcoVoyage.
         </h1>
